@@ -12,11 +12,6 @@
 
 <body>
 
-    <div class="logo">
-        <a href="<?= URLROOT; ?>/overzicht">
-            <img src="<?= URLROOT; ?>/img/logo-wit.png">
-        </a>
-    </div>
 
     <div class="card">
         <div class="title">

@@ -1,3 +1,8 @@
+
+CREATE DATABASE `jamin-overzicht`;
+USE `jamin-overzicht`;
+
+
 -- Drop tables if they exist
 DROP TABLE IF EXISTS ProductPerLeverancier;
 DROP TABLE IF EXISTS Leverancier;
@@ -7,9 +12,6 @@ DROP TABLE IF EXISTS Magazijn;
 DROP TABLE IF EXISTS Product;
 
 -- Create tables
-CREATE DATABASE IF NOT EXISTS `jamin-overzicht`;
-USE `jamin-overzicht`;
-
 CREATE TABLE IF NOT EXISTS Product (
     Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     Naam VARCHAR(250) NOT NULL,
